@@ -1,6 +1,6 @@
 #ifndef RBUFFER_H
 #define RBUFFER_H
-
+#include <atomic>
 #include <mutex>
 #include <condition_variable>
 #include <cstddef>
