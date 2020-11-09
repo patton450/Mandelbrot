@@ -8,9 +8,9 @@ class rgb{
         int r, g, b;
         rgb(){r = 0; g = 0; b = 0;}
         rgb(double _r, double _g, double _b) {
-            r = static_cast<int>(255.999 * _r);
-            g = static_cast<int>(255.999 * _g);
-            b = static_cast<int>(255.999 * _b);
+            r = static_cast<uint16_t>(255.999 * _r);
+            g = static_cast<uint16_t>(255.999 * _g);
+            b = static_cast<uint16_t>(255.999 * _b);
         }
 
         void draw(std::ostream &out){
